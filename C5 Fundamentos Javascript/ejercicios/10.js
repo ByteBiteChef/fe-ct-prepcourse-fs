@@ -6,7 +6,7 @@ function esFechaValida(fecha) {
 
 	const pruebaFecha = new Date(fecha);
 
-	/// Puese esta linea para verificar si el parametro `fecha` es una instancia de date. En caso de ser un objeto 'Date' continua verificando si es una fecha valida
+	/// Puse esta linea para verificar si el parametro `fecha` es una instancia de date. En caso de ser un objeto 'Date' continua verificando si es una fecha valida
 	if (!(fecha instanceof Date)) return false;
 	if (isNaN(pruebaFecha.getTime())) {
 		return false;
